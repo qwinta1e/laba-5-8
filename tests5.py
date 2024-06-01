@@ -22,7 +22,7 @@ class Test5(unittest.TestCase):
         self.assertFalse(laba5.areAnagrams(*['boba', 'biba']), False)
         self.assertTrue(laba5.areAnagrams(*['elvis', 'lives', 'viles']), True)
     def test_fibonacciNumber(self):
-        self.assertEqual(laba5.fibonacciNumber(4),4)
+        self.assertEqual(laba5.fibonacciNumber(4),3)
         self.assertEqual(laba5.fibonacciNumber(10),55)
         self.assertEqual(laba5.fibonacciNumber(23),28657)
 
